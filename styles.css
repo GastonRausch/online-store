@@ -3,7 +3,7 @@
     --white: #FFFFFF;
     --black: #000000;
     /* --very-light-pink: #C7C7C7; */
-    --very-light-pink: #e28585;
+    --very-light-red: #e28585;
     --text-input-field: #f0efef;
     --hospital-green: #ACD9B2;
     --sm: 14px;
@@ -27,7 +27,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0 24px;
-    border-bottom: 1px solid var(--very-light-pink);
+    border-bottom: 1px solid var(--very-light-red);
     z-index: 1;
 }
 
@@ -53,7 +53,7 @@ nav {
 .navbar-left ul li a,
 .navbar-right ul li a {
     text-decoration: none;
-    color: var(--very-light-pink);
+    color: var(--very-light-red);
     border: 1px solid var(--white);
     padding: 8px;
     border-radius: 8px;
@@ -66,7 +66,7 @@ nav {
 }
 
 .navbar-email {
-    color: var(--very-light-pink);
+    color: var(--very-light-red);
     font-size: var(--sm);
     margin-right: 12px;
     cursor: pointer;
@@ -109,7 +109,7 @@ nav {
     background-color: var(--white);
     width: 100px;
     height: auto;
-    border: 1px solid var(--very-light-pink);
+    border: 1px solid var(--very-light-red);
     border-radius: 6px;
     padding: 20px 20px 0 20px;
 }
@@ -131,7 +131,7 @@ nav {
 
 .desktop-menu ul li:last-child {
     padding-top: 20px;
-    border-top: 1px solid var(--very-light-pink);
+    border-top: 1px solid var(--very-light-red);
 }
 
 .desktop-menu ul li:last-child a {
@@ -169,7 +169,7 @@ nav {
 }
 
 .mobile-menu ul:nth-child(1) {
-    border-bottom: 1px solid var(--very-light-pink);
+    border-bottom: 1px solid var(--very-light-red);
 }
 
 .mobile-menu ul li {
@@ -260,7 +260,7 @@ aside {
 }
 
 .shopping-cart p:nth-child(2) {
-    color: var(--very-light-pink);
+    color: var(--very-light-red);
 }
 
 .shopping-cart p:nth-child(3) {
@@ -330,7 +330,7 @@ aside {
     font-size: var(--sm);
     margin-top: 0px;
     margin-bottom: 0px;
-    color: var(--very-light-pink);
+    color: var(--very-light-red);
 }
 
 /* Aside (Product details) */
@@ -375,14 +375,14 @@ aside {
 
 #product-detail .product-info p:nth-child(2){
     font-size:var(--md);
-    color: var(--very-light-pink);
+    color: var(--very-light-red);
     margin-top: 0;
     margin-bottom: 36px;
 }
 
 #product-detail .product-info p:nth-child(3){
     font-size:var(--sm);
-    color: var(--very-light-pink);
+    color: var(--very-light-red);
     margin-top: 0;
     margin-bottom: 36px;
 }
